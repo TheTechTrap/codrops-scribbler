@@ -12,8 +12,8 @@ var getAll = function (selector, scope) {
 // setup typewriter effect in the terminal demo
 if (document.getElementsByClassName("demo").length > 0) {
   var i = 0;
-  var txt = `git remote add origin dgit://VC4NJ3nlVJJPgyJ4DScpeXx3-UnXmiasfrxiIFpJwb0/repo-name
-            git push origin master`;
+  var txt = ` git remote add origin dgit://VC4NJ3nlVJJPgyJ4DScpeXx3-UnXmiasfrxiIFpJwb0/repo-name
+            dgit ~ $ git push origin master`;
   var speed = 60;
 
   function typeItOut() {
