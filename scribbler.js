@@ -13,8 +13,8 @@ var getAll = function (selector, scope) {
 if (document.getElementsByClassName("demo").length > 0) {
   var i = 0;
   var txt = ` git remote add origin dgit://VC4NJ3nlVJJPgyJ4DScpeXx3-UnXmiasfrxiIFpJwb0/repo-name
-            dgit ~ $ git push origin master`;
-  var speed = 60;
+            <span style="color:yellow">dgit ~ $</span> git push origin master`;
+  var speed = 75;
 
   function typeItOut() {
     if (i < txt.length) {
